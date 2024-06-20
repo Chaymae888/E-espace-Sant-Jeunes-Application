@@ -22,7 +22,7 @@ class _ChooselanguageState extends State<Chooselanguage> {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
-    bool darkMode = WidgetsBinding.instance.window.platformBrightness == Brightness.dark;
+    bool darkMode = WidgetsBinding.instance.platformDispatcher.platformBrightness == Brightness.dark;
     String language;
     if (en) {
       language = 'en';

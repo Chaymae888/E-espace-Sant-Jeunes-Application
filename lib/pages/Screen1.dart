@@ -20,7 +20,7 @@ class _Screen1State extends State<Screen1> {
   ThemeMode _themeMode;
 
   _Screen1State()
-      : _themeMode = WidgetsBinding.instance.window.platformBrightness == Brightness.dark
+      : _themeMode = WidgetsBinding.instance.platformDispatcher.platformBrightness == Brightness.dark
       ? ThemeMode.dark
       : ThemeMode.light;
 
