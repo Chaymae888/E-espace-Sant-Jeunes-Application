@@ -57,7 +57,7 @@ class _Screen1State extends State<Screen1> {
               double height=MediaQuery.of(context).size.height;
               double width=MediaQuery.of(context).size.width;
               final appLocalizations = AppLocalizations.of(context);
-              List<String> titles=[appLocalizations!.title1,appLocalizations!.title2,appLocalizations!.title3];
+              List<String> titles=[appLocalizations!.title1,appLocalizations.title2,appLocalizations.title3];
               List<String> body=[
                 appLocalizations.description1,
                 appLocalizations.description2,
@@ -209,8 +209,6 @@ class _ThemeSwitcherState extends State<ThemeSwitcher> {
 
   @override
   Widget build(BuildContext context) {
-    double width=MediaQuery.of(context).size.width;
-    double height=MediaQuery.of(context).size.height;
     return InkWell(
       onTap: () {
         if (switchInput != null) {
