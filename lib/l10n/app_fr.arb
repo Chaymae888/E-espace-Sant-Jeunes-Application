@@ -1,0 +1,11 @@
+{
+  "title1": "Espace des jeunes",
+  "title2": "Espace des docteurs",
+  "title3": "Psychologie des chatbots",
+  "language":"Choisissez la langue",
+  "description1": "Les jeunes peuvent accéder à des ressources numériques sur la santé mentale, à une assistance confidentielle et à des outils pédagogiques. Cette plateforme offre un soutien immédiat et personnalisé, tirant parti de la technologie pour mieux répondre aux besoins des jeunes.",
+  "description2": "L'espace médecin e-santé propose des outils de consultations virtuelles et de dossiers de santé électroniques, améliorant ainsi la prise en charge et l'efficacité des patients. Ces technologies prennent en charge un traitement personnalisé et rationalisent la gestion des données, permettant ainsi de meilleurs résultats en matière de soins de santé grâce à des solutions numériques accessibles.",
+  "description3": "La psychologie des chatbots vise à fournir un soutien et des conseils en matière de santé mentale aux jeunes utilisant l’IA. Ces chatbots offrent une assistance en temps réel, des stratégies d'adaptation et un espace sécurisé pour discuter de problèmes personnels. En tirant parti du traitement du langage naturel, ils adaptent les conseils aux besoins individuels, améliorant ainsi l’accessibilité et l’efficacité des services de santé mentale pour les jeunes.",
+  "next": "suivant",
+  "started": "Commencer"
+}
